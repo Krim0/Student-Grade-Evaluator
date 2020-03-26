@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Home</title>
+</head>
+<body onload="Stdname()" class="container p-1" id="background-color">
+    <div>
+        <div class="w-50 align-middle" id="white-container">
+            <h2 id="header">Student Grade Evaluator</h2>
+            <div class="pl-3">
+                <h4 id="sub-header1">Student Name:</h4>
+                <h4 id="sub-header2">List of Subjects:</h4>
+            </div>
+
+            <div class="container inline-block">
+                <div class="row inline-block">
+                    <div class="col-sm-3 font-weight-bold"><small id="row-header">Subject Title</small> </div>
+                    <div class="col-sm-3 font-weight-bold text-center"><small class="pr-4" id="row-header"> Grade</small></div>
+                    <div class="col-sm-4 font-weight-bold"><small id="row-header" class="remark-header"> Remarks</small></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="math">Math</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic text-center" id="sub-math" maxlength="3" type="text">
+                    </div>
+                    <div class="col-sm-2 font-weight-italic" id="math-Remark">Evaluation</div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="science">Science</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic text-center" id="sub-science" maxlength="3" type="text">
+                    </div>
+                    <div class="col-sm-2 font-weight-italic" id="sci-Remark">Evaluation</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="english">English</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic text-center" id="sub-english" maxlength="3" type="text">
+                    </div>
+                    <div class="col-sm-2 font-weight-italic" id="eng-Remark">Evaluation</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="Filipino">Filipino</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic text-center" id="sub-filipino" maxlength="3" type="text">
+                    </div>
+                    <div class="col-sm-2 font-weight-italic" id="fil-Remark">Evaluation</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label for="pe">P.E</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="font-weight-italic text-center" id="sub-pe" maxlength="3" type="text">
+                    </div>
+                    <div class="col-sm-2 font-weight-italic" id="pe-Remark">Evaluation</div>
+                </div>
+                <div class="row" id="bot">
+                    <div class="col-sm-5">
+                        <h4 class="rankk">Student Rank:</h4>
+                    </div>
+                    <div class="col-xl">
+                        <h4 id="stu-rank">Rank Here</h4>
+                    </div>
+ 
+                </div>
+            </div>
+            <div>
+                 <button id="eve-button" class="text-white" onclick="grade()">Evaluate</button>
+             </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+</body>
+</html>

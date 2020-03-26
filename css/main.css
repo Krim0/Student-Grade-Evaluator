@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: NunitoMed;
+    src: url(../fonts/Nunito/Nunito-Medium.ttf);
+}
+@font-face {
+    font-family: NunitoReg;
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: NunitoBold;
+    src: url(../fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+@font-face{
+    font-family: Nunito;
+    src: url(../fonts/Nunito/Nunito-SemiBold.ttf);
+}
+@font-face{
+    font-family: NunitoMed;
+    src: url(../fonts/Nunito/Nunito-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/poppins/Poppins-Medium.otf);
+}
+@font-face{
+    font-family: PoppinsBold;
+    src: url(../fonts/poppins/Poppins-ExtraBold.otf);
+}
+@font-face {
+    font-family: Alice;
+    src: url(../fonts/Alice\ and\ the\ Wicked\ Monster.ttf);
+}
+@font-face {
+    font-family: PoppinsReg;
+    src: url(../fonts/poppins/Poppins-Regular.otf);
+}
+#background-color {
+    background-color:	#a06700;
+}
+#header {
+    color:	#e59400;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: PoppinsBold;
+}
+h4 {
+    color:#ffa500;
+}
+#sub-header1 {
+    margin-bottom: 20px;
+    font-family: NunitoBold;
+}
+#sub-header2 {
+    margin-bottom: 20px;
+    font-family: NunitoBold;
+}
+#row-header {
+    color: 	#efbe66;
+    font-size: medium;
+}
+label {
+    color:	#eaa932;
+    font-weight: bolder;
+}
+#math-Remark, #sci-Remark, #eng-Remark, #fil-Remark, #pe-Remark {
+    color: 	#eaa932;
+    font-weight: bold;
+    font-family: NunitoReg;
+}
+#stu-rank {
+    max-width: max-content;
+    font-family: PoppinsReg;
+}
+
+#white-container {
+    margin-left: 27%;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 23px;
+    background-color:white;
+    box-shadow:  16px -16px 40px #835400, 
+                 16px -16px 40px #835400,
+            inset 3px 3px 15px #835400;
+    
+}
+#eve-button {
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color:	#ffa500;
+    width: 90px;
+    height: 45px;
+    margin-bottom: 25px;
+    border-radius: 20%;
+    box-shadow:  -16px -16px -20px, 
+                16px 16px 40px #ffa500;
+    font-family: Poppins;
+}
+
+.background-image {
+    background: url(../img/bg-img.png) no-repeat;
+    background-size: cover;
+}
+#blue-container {
+    background-color:#a06800ce ;
+    position: absolute;
+    float: top;
+    left: 59%;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 660px;
+    width: 550px;
+}
+.header {
+    margin-top: 50%;
+    color: white;
+}
+#landing-btn {
+    color: white;
+    background-color:#f7b231;
+    height: 40px;
+    width: 100px;
+    border-radius: 36px;
+    font-family: Poppins;
+
+}
+#jumbo {
+    background-color:	#a8cde791;
+    margin-top: 200px;
+}
+#landing-header {
+    font-family: Alice;
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #1f2f98;
+}
+
+.remark-header {
+    padding-left: 40px;
+}
+#math-Remark, #sci-Remark, #eng-Remark, #fil-Remark, #pe-Remark {
+    padding-left: 50px;
+}
+label {
+    font-family: NunitoMed;
+}
+#bot {
+    margin-top: 10px;
+}
+input {
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #ffffff, 
+                 5px 5px 10px #ffffff;
+}
+.rankk {
+    font-family: PoppinsReg;
+}
